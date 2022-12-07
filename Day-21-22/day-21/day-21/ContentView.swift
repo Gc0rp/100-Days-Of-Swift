@@ -10,11 +10,16 @@ import SwiftUI
 struct ContentView: View {
     @State private var showingScore = false
     @State private var scoreTitle = ""
-    
+    @State private var currentScore = 0
     @State private var countries = ["Estonia", "France", "Germany", "Ireland", "Italy", "Nigeria", "Poland",
     "Russia", "Spain", "UK", "US"]
     
     @State private var correctAnswer = Int.random(in: 0...2)
+    
+    @State var numberOfGames = 0
+    @State var numberOfWrongs = 0
+    @State var numberOfRights = 0
+    @State private var showingAlert = false
     
     var body: some View {
         ZStack{
@@ -46,32 +51,62 @@ struct ContentView: View {
                 Spacer()
                 Spacer()
                 
-                Text("Score: ???").foregroundColor(.white).font(.title.bold())
+                Text("Score: \(currentScore)").foregroundColor(.white).font(.title.bold())
                 
                 Spacer()
-            }.padding().alert(scoreTitle, isPresented: $showingScore) {
-                Button("Continue", action: askQuestion)
-            } message: {
-                Text("Your score is ???")
+            }.padding()
+             .alert(scoreTitle, isPresented: $showingScore) {
+                 if(numberOfGames < 8) {
+                     Button("Continue", action: askQuestion)
+                 } else {
+                     Button("Restart", action: restart)
+                     Button("Cancel", role: .cancel) {}
+                 }
+            }  message: {
+                if(numberOfGames < 8) {
+                    if scoreTitle == "Wrong" {
+                        Text("Wrong! That's the flag of \(scoreTitle) Your score is \(currentScore)")
+                    } else {
+                        Text("Correct! That's the flag of \(scoreTitle) Your score is \(currentScore)")
+                    }
+                } else {
+                        Text("The game has concluded you have \(numberOfRights) right answers and \(numberOfWrongs) wrong answers.")
+
+                }
+
             }
-
         }
-
     }
     
     func flagTapped(_ number: Int) {
         if number == correctAnswer {
             scoreTitle = "Correct"
+            currentScore += 1
+            numberOfRights += 1
         } else {
             scoreTitle = "Wrong"
+            currentScore -= 1
+            numberOfRights -= 1
         }
-
         showingScore = true
     }
     
+    
+    func restart() {
+        numberOfGames = 0
+        currentScore = 0
+        numberOfRights = 0
+        numberOfWrongs = 0
+        
+        askQuestion()
+    }
+    
     func askQuestion() {
-        countries.shuffle()
-        correctAnswer = Int.random(in: 0...2)
+        if(numberOfGames < 8) {
+            countries.shuffle()
+            correctAnswer = Int.random(in: 0...2)
+            numberOfGames += 1
+        }
     }
 }
 
