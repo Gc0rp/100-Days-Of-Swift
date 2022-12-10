@@ -60,7 +60,9 @@ struct ContentView: View {
                     }
                     .pickerStyle(.segmented)
                     
-                    Text("\(String(tipPercentage))%")
+                    Text("\(String(tipPercentage))%").foregroundColor(
+                        (tipPercentage == 0) ? .red : .black
+                    )
                 } header: {
                     Text("How much tip do you want to leave?")
                 }
