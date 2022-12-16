@@ -17,13 +17,20 @@ struct ContentView: View {
     @State private var errorMessage = ""
     @State private var showingError = false
     
+    @State private var scoreCount = 0
+    
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List {
-                Section {
-                    TextField("Enter your word", text: $newWord).autocapitalization(.none)
+                HStack {
+                    Section {
+                        TextField("Enter your word", text: $newWord).autocapitalization(.none)
+                    }
+                    
+                    Text("Score: \(scoreCount)")
                 }
+
                 Section {
                     ForEach(usedWords, id: \.self) { word in
                         HStack{
@@ -35,6 +42,11 @@ struct ContentView: View {
                 }
             }
             .navigationTitle(rootWord)
+            .toolbar {
+                ToolbarItemGroup(placement: .bottomBar) {
+                    Button("Restart", action: startGame)
+                }
+            }
             .onSubmit(addNewWord)
             .onAppear(perform: startGame)
             .alert(errorTitle, isPresented: $showingError) {
@@ -44,6 +56,7 @@ struct ContentView: View {
             }
         }
     }
+    
     
     func addNewWord() {
         let answer = newWord.lowercased().trimmingCharacters(in: .whitespacesAndNewlines)
@@ -66,10 +79,21 @@ struct ContentView: View {
             return
         }
         
+        guard isShort(word: answer) else {
+            wordError(title: "Too Short", message: "You can't enter a word less than 3 characters.")
+            return
+        }
+        
+        guard isRootWord(word: answer) else {
+            wordError(title: "Same as the root word", message: "The word you entered is the same as the root word.")
+            return
+        }
+                
         // Extra validation
         withAnimation {
             usedWords.insert(answer, at: 0)
         }
+        scoreCount += answer.count
         newWord = ""
     }
     
@@ -79,6 +103,7 @@ struct ContentView: View {
                 let allWords = startWords.components(separatedBy: "\n")
                 
                 rootWord = allWords.randomElement() ?? "silkworm"
+                usedWords = [String]()
                 return
             }
         }
@@ -104,6 +129,7 @@ struct ContentView: View {
         return true
     }
     
+    
     func isReal(word: String) -> Bool {
         let checker = UITextChecker()
         let range = NSRange(location: 0, length: word.utf16.count)
@@ -112,6 +138,20 @@ struct ContentView: View {
         return misspelledRange.location == NSNotFound
     }
     
+    func isShort(word: String) -> Bool {
+        if (word.count < 3) {
+          return false
+        }
+        return true
+    }
+
+    func isRootWord(word: String) -> Bool {
+        if (word != rootWord) {
+            return true
+        }
+        return false
+    }
+
     
     func wordError(title: String, message: String) {
         errorTitle = title
