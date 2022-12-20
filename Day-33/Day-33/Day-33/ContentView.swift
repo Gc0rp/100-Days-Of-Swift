@@ -87,23 +87,23 @@ struct ContentView: View {
 //
 //        }
         
-        ZStack {
-            Rectangle()
-                .fill(.blue)
-                .frame(width: 200, height: 200)
-
-            if isShowingred {
-                Rectangle()
-                    .fill(.red)
-                    .frame(width: 200, height: 200)
-                    .transition(.pivot)
-            }
-        }
-        .onTapGesture {
-            withAnimation {
-                isShowingred.toggle()
-            }
-        }
+//        ZStack {
+//            Rectangle()
+//                .fill(.blue)
+//                .frame(width: 200, height: 200)
+//
+//            if isShowingred {
+//                Rectangle()
+//                    .fill(.red)
+//                    .frame(width: 200, height: 200)
+//                    .transition(.pivot)
+//            }
+//        }
+//        .onTapGesture {
+//            withAnimation {
+//                isShowingred.toggle()
+//            }
+//        }
         
     }
 }
