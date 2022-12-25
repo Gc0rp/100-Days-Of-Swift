@@ -11,9 +11,14 @@ struct AddView: View {
     
     @ObservedObject var expenses: Expense
     
+    
     @State private var name = ""
     @State private var type = "Personal"
     @State private var amount = 0.0
+    
+    @State private var listOfCurrencies = ["AUD 🇦🇺", "EUR 🇪🇺", "USD 🇺🇸", "GBP 🇬🇧", "INR 🇮🇳"]
+    
+    @State private var currency = "AUD 🇦🇺"
     
     @Environment(\.dismiss) var dismiss
     
@@ -30,13 +35,25 @@ struct AddView: View {
                     }
                 }
                 
-                TextField("Amount", value: $amount, format: .currency(code: "USD"))
-                    .keyboardType(.decimalPad)
+                HStack {
+                    TextField("Amount", value: $amount, format: .currency(code: currency.components(separatedBy: " ")[0]))
+                    
+                    Picker("", selection: $currency) {
+                        ForEach(listOfCurrencies, id: \.self) {
+                            Text($0)
+                        }
+                    }
+                    
+                }
+                
+                Text("Current format: \(currency)")
+                Text("Updated format: \(currency.components(separatedBy: " ")[0])")
+
             }
             .navigationTitle("Add new expense")
             .toolbar {
                 Button("Save") {
-                    let item = ExpenseItem(name: name, type: type, amount: amount)
+                    let item = ExpenseItem(name: name, type: type, amount: amount, currency: currency)
                     
                     expenses.items.append(item)
                     
