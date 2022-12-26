@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "missions.json",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
