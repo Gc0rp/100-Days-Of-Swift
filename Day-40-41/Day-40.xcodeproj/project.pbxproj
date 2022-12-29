@@ -19,6 +19,10 @@
 		3529416F2959922E00106166 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3529416E2959922E00106166 /* Color-Theme.swift */; };
 		35294173295A5DB800106166 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35294172295A5DB800106166 /* MissionView.swift */; };
 		35294175295A726700106166 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35294174295A726700106166 /* AstronautView.swift */; };
+		355B90BF295BF18700A70426 /* AstronautScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355B90BE295BF18700A70426 /* AstronautScroll.swift */; };
+		355B90C1295C0A0800A70426 /* CrewMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355B90C0295C0A0800A70426 /* CrewMember.swift */; };
+		355B90C3295C4C0000A70426 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355B90C2295C4C0000A70426 /* GridView.swift */; };
+		355B90C5295C4D1400A70426 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355B90C4295C4D1400A70426 /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +39,10 @@
 		3529416E2959922E00106166 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
 		35294172295A5DB800106166 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		35294174295A726700106166 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
+		355B90BE295BF18700A70426 /* AstronautScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautScroll.swift; sourceTree = "<group>"; };
+		355B90C0295C0A0800A70426 /* CrewMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewMember.swift; sourceTree = "<group>"; };
+		355B90C2295C4C0000A70426 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		355B90C4295C4D1400A70426 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,11 +75,14 @@
 		352941552958E45300106166 /* Day-40 */ = {
 			isa = PBXGroup;
 			children = (
+				355B90C2295C4C0000A70426 /* GridView.swift */,
 				352941662958E54300106166 /* astronauts.json */,
+				355B90C0295C0A0800A70426 /* CrewMember.swift */,
 				352941672958E54300106166 /* missions.json */,
 				3529416C2958EB5400106166 /* Mission.swift */,
 				352941562958E45300106166 /* Day_40App.swift */,
 				352941582958E45300106166 /* ContentView.swift */,
+				355B90BE295BF18700A70426 /* AstronautScroll.swift */,
 				35294172295A5DB800106166 /* MissionView.swift */,
 				35294174295A726700106166 /* AstronautView.swift */,
 				3529415A2958E45500106166 /* Assets.xcassets */,
@@ -79,6 +90,7 @@
 				3529416A2958E5D400106166 /* Bundle-Decodable.swift */,
 				352941642958E4E800106166 /* Astronaut.swift */,
 				3529415C2958E45500106166 /* Preview Content */,
+				355B90C4295C4D1400A70426 /* ListView.swift */,
 			);
 			path = "Day-40";
 			sourceTree = "<group>";
@@ -163,11 +175,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				355B90BF295BF18700A70426 /* AstronautScroll.swift in Sources */,
 				35294173295A5DB800106166 /* MissionView.swift in Sources */,
 				352941652958E4E800106166 /* Astronaut.swift in Sources */,
+				355B90C3295C4C0000A70426 /* GridView.swift in Sources */,
 				35294175295A726700106166 /* AstronautView.swift in Sources */,
+				355B90C1295C0A0800A70426 /* CrewMember.swift in Sources */,
 				3529416F2959922E00106166 /* Color-Theme.swift in Sources */,
 				352941592958E45300106166 /* ContentView.swift in Sources */,
+				355B90C5295C4D1400A70426 /* ListView.swift in Sources */,
 				352941572958E45300106166 /* Day_40App.swift in Sources */,
 				3529416D2958EB5400106166 /* Mission.swift in Sources */,
 				3529416B2958E5D400106166 /* Bundle-Decodable.swift in Sources */,
