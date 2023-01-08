@@ -21,3 +21,80 @@ Day 16 – Swift UI basics (Navigationbar, views, program state, forms) <br>
 
 Day 17-18 - Calculate the bill app <br>
 
+Day 19 – Challenge day
+
+Day 20 – Project 2, part one
+
+Day 21 – Project 2, part two
+
+Day 22 – Project 2, part three
+
+Day 23 – Project 3, part one
+
+Day 24 – Project 3, part two
+ 
+
+Day 25: Consolidation II
+In the last few days we covered some of the fundamentals of iOS development, and before we move on to the next set of projects it’s important to take a step back and review what you’ve learned.
+
+Day 25 – Milestone: Projects 1-3
+ 
+
+Days 26-34: Expanding your skills
+In these next three projects we’re going to develop your SwiftUI skills in new directions, while also giving you chance to practice the fundamentals.
+
+Day 26 – Project 4, part one
+
+Day 27 – Project 4, part two
+
+Day 28 – Project 4, part three
+
+Day 29 – Project 5, part one
+
+Day 30 – Project 5, part two
+
+Day 31 – Project 5, part three
+
+Day 32 – Project 6, part one
+
+Day 33 – Project 6, part two
+
+Day 34 – Project 6, part three
+ 
+
+Day 35: Consolidation III
+Now that your SwiftUI skills are starting to solidify, it’s time to review all the new things we’ve covered and get busy with another project all of your own.
+
+Day 35 – Milestone: Projects 4-6
+ 
+
+Days 36-46: Scaling up to bigger apps
+Your core SwiftUI skills are strong, so it’s time to push past the basics and start building bigger apps.
+
+Day 36 – Project 7, part one
+Day 37 – Project 7, part two
+Day 38 – Project 7, part three
+Day 39 – Project 8, part one
+Day 40 – Project 8, part two
+Day 41 – Project 8, part three
+Day 42 – Project 8, part four
+Day 43 – Project 9, part one
+Day 44 – Project 9, part two
+Day 45 – Project 9, part three
+Day 46 – Project 9, part four
+ 
+
+Days 47-48: Consolidation IV
+You’ve tackled some heavyweight skills now, so before we move on it’s time to review what has been covered, go into detail on a handful of topics, and face a fresh challenge.
+
+Day 47 – Milestone: Projects 7-9
+Day 48 – Expanding your horizons
+ 
+
+Days 49-59: Focus on data
+In these projects we’re going to start looking more carefully at how we can send, retrieve, and store data in our SwiftUI apps.
+
+Day 49 – Project 10, part one
+Day 50 – Project 10, part two
+Day 51 – Project 10, part three
+Day 52 – Project 10, part four
