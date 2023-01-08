@@ -66,22 +66,35 @@ Day 35: Consolidation III
 Day 35 – Milestone: Projects 4-6
 
 Day 36 – Project 7, part one
+
 Day 37 – Project 7, part two
+
 Day 38 – Project 7, part three
+
 Day 39 – Project 8, part one
+
 Day 40 – Project 8, part two
+
 Day 41 – Project 8, part three
+
 Day 42 – Project 8, part four
+
 Day 43 – Project 9, part one
+
 Day 44 – Project 9, part two
+
 Day 45 – Project 9, part three
+
 Day 46 – Project 9, part four
 
 Day 47 – Milestone: Projects 7-9
+
 Day 48 – Expanding your horizons
  
-
 Day 49 – Project 10, part one
+
 Day 50 – Project 10, part two
+
 Day 51 – Project 10, part three
+
 Day 52 – Project 10, part four
