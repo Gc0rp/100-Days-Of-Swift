@@ -60,16 +60,10 @@ Day 32 – Project 6, part one
 Day 33 – Project 6, part two
 
 Day 34 – Project 6, part three
- 
 
 Day 35: Consolidation III
-Now that your SwiftUI skills are starting to solidify, it’s time to review all the new things we’ve covered and get busy with another project all of your own.
 
 Day 35 – Milestone: Projects 4-6
- 
-
-Days 36-46: Scaling up to bigger apps
-Your core SwiftUI skills are strong, so it’s time to push past the basics and start building bigger apps.
 
 Day 36 – Project 7, part one
 Day 37 – Project 7, part two
@@ -82,17 +76,10 @@ Day 43 – Project 9, part one
 Day 44 – Project 9, part two
 Day 45 – Project 9, part three
 Day 46 – Project 9, part four
- 
-
-Days 47-48: Consolidation IV
-You’ve tackled some heavyweight skills now, so before we move on it’s time to review what has been covered, go into detail on a handful of topics, and face a fresh challenge.
 
 Day 47 – Milestone: Projects 7-9
 Day 48 – Expanding your horizons
  
-
-Days 49-59: Focus on data
-In these projects we’re going to start looking more carefully at how we can send, retrieve, and store data in our SwiftUI apps.
 
 Day 49 – Project 10, part one
 Day 50 – Project 10, part two
