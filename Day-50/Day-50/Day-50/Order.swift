@@ -7,6 +7,10 @@
 
 import SwiftUI
 
+class OrderStore: ObservableObject {
+    @Published var order = Order()
+}
+
 class Order: ObservableObject, Codable {
     enum CodingKeys: CodingKey {
         case type, quantity, extraFrosting, addSprinkles, name, streetAddress, city, zip
@@ -33,8 +37,11 @@ class Order: ObservableObject, Codable {
     @Published var city = ""
     @Published var zip = ""
     
+    
+    
     var hasValidAddress: Bool {
-        if name.isEmpty || streetAddress.isEmpty || city.isEmpty || zip.isEmpty {
+        let nospaceAddress = streetAddress.replacingOccurrences(of: " ", with: "")
+        if name.isEmpty || nospaceAddress.isEmpty || city.isEmpty || zip.isEmpty {
             return false
         }
         return true
