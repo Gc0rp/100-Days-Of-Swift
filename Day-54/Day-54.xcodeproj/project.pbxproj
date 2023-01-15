@@ -16,6 +16,7 @@
 		356F8D2529724DFD00EEA07D /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356F8D2429724DFD00EEA07D /* RatingView.swift */; };
 		356F8D272972636700EEA07D /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356F8D262972636700EEA07D /* EmojiRatingView.swift */; };
 		356F8D292972DEFD00EEA07D /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356F8D282972DEFD00EEA07D /* DataController.swift */; };
+		356F8D2B2973ADF500EEA07D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356F8D2A2973ADF500EEA07D /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		356F8D2429724DFD00EEA07D /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		356F8D262972636700EEA07D /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
 		356F8D282972DEFD00EEA07D /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataController.swift; path = "../../../HackingWithSwift-Clone/SwiftUI/project11/Bookworm/DataController.swift"; sourceTree = "<group>"; };
+		356F8D2A2973ADF500EEA07D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				356F8D222972443100EEA07D /* AddBookView.swift */,
 				356F8D2429724DFD00EEA07D /* RatingView.swift */,
 				356F8D15297242E400EEA07D /* Assets.xcassets */,
+				356F8D2A2973ADF500EEA07D /* DetailView.swift */,
 				356F8D17297242E400EEA07D /* Preview Content */,
 			);
 			path = "Day-54";
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				356F8D292972DEFD00EEA07D /* DataController.swift in Sources */,
+				356F8D2B2973ADF500EEA07D /* DetailView.swift in Sources */,
 				356F8D14297242E300EEA07D /* ContentView.swift in Sources */,
 				356F8D212972431100EEA07D /* Bookworm.xcdatamodeld in Sources */,
 				356F8D12297242E300EEA07D /* Day_54App.swift in Sources */,
