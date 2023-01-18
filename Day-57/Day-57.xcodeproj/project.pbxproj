@@ -13,8 +13,8 @@
 		35080F932976B7D00050FA46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35080F922976B7D00050FA46 /* Preview Assets.xcassets */; };
 		35080F9B2976BB120050FA46 /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35080F992976BB120050FA46 /* CoreDataProject.xcdatamodeld */; };
 		35080F9D2976C4800050FA46 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35080F9C2976C4800050FA46 /* DataController.swift */; };
-		35080FA02976DD810050FA46 /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35080F9E2976DD810050FA46 /* Movie+CoreDataClass.swift */; };
-		35080FA12976DD810050FA46 /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35080F9F2976DD810050FA46 /* Movie+CoreDataProperties.swift */; };
+		35080FA42977A89D0050FA46 /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35080FA22977A89D0050FA46 /* Movie+CoreDataClass.swift */; };
+		35080FA52977A89D0050FA46 /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35080FA32977A89D0050FA46 /* Movie+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,8 +25,8 @@
 		35080F922976B7D00050FA46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		35080F9A2976BB120050FA46 /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
 		35080F9C2976C4800050FA46 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataController.swift; path = "../../../HackingWithSwift-Clone/SwiftUI/project11/Bookworm/DataController.swift"; sourceTree = "<group>"; };
-		35080F9E2976DD810050FA46 /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataClass.swift"; sourceTree = "<group>"; };
-		35080F9F2976DD810050FA46 /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		35080FA22977A89D0050FA46 /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		35080FA32977A89D0050FA46 /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 		35080F8A2976B7D00050FA46 /* Day-57 */ = {
 			isa = PBXGroup;
 			children = (
-				35080F9E2976DD810050FA46 /* Movie+CoreDataClass.swift */,
-				35080F9F2976DD810050FA46 /* Movie+CoreDataProperties.swift */,
+				35080FA22977A89D0050FA46 /* Movie+CoreDataClass.swift */,
+				35080FA32977A89D0050FA46 /* Movie+CoreDataProperties.swift */,
 				35080F9C2976C4800050FA46 /* DataController.swift */,
 				35080F8B2976B7D00050FA46 /* Day_57App.swift */,
 				35080F8D2976B7D00050FA46 /* ContentView.swift */,
@@ -152,8 +152,8 @@
 				35080F8E2976B7D00050FA46 /* ContentView.swift in Sources */,
 				35080F9D2976C4800050FA46 /* DataController.swift in Sources */,
 				35080F8C2976B7D00050FA46 /* Day_57App.swift in Sources */,
-				35080FA02976DD810050FA46 /* Movie+CoreDataClass.swift in Sources */,
-				35080FA12976DD810050FA46 /* Movie+CoreDataProperties.swift in Sources */,
+				35080FA42977A89D0050FA46 /* Movie+CoreDataClass.swift in Sources */,
+				35080FA52977A89D0050FA46 /* Movie+CoreDataProperties.swift in Sources */,
 				35080F9B2976BB120050FA46 /* CoreDataProject.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
