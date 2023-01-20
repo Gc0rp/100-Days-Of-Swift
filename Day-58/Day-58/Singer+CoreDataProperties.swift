@@ -2,7 +2,7 @@
 //  Singer+CoreDataProperties.swift
 //  Day-58
 //
-//  Created by Ojas Gupta on 18/1/2023.
+//  Created by Ojas Gupta on 20/1/2023.
 //
 //
 
@@ -19,7 +19,6 @@ extension Singer {
     @NSManaged public var firstName: String?
     @NSManaged public var lastName: String?
     
-    
     var wrappedFirstName: String {
         firstName ?? "Unknown"
     }
@@ -27,9 +26,5 @@ extension Singer {
     var wrappedLastName: String {
         lastName ?? "Unknown"
     }
-
-}
-
-extension Singer : Identifiable {
 
 }

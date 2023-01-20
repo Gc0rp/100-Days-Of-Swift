@@ -5,6 +5,7 @@
 //  Created by Ojas Gupta on 18/1/2023.
 //
 
+
 import SwiftUI
 
 struct ContentView: View {
@@ -44,82 +45,80 @@ struct ContentView: View {
 //                try? moc.save()
 //            }
             
+            FilteredList(sortDescriptorList: [
+                NSSortDescriptor(key: "lastName", ascending: true)
+            ], filterKey: "lastName", filterValue: lastNameFilter, predicateValue: .BEGINSWITH) { (singer: Singer) in
+                Text("\(singer.wrappedFirstName) \(singer.wrappedLastName)")
+            }
+
+            Button("Add Examples") {
+                let taylor = Singer(context: self.moc)
+                taylor.firstName = "Taylor"
+                taylor.lastName = "Swift"
+
+                let ed = Singer(context: self.moc)
+                ed.firstName = "Ed"
+                ed.lastName = "Sheeran"
+
+                let adele = Singer(context: self.moc)
+                adele.firstName = "Adele"
+                adele.lastName = "Adkins"
+
+                try? self.moc.save()
+            }
+
+            Button("Show A") {
+                self.lastNameFilter = "A"
+            }
+
+            Button("Show S") {
+                self.lastNameFilter = "S"
+            }
             
-//            FilteredList(filterKey: "lastname", filterValue: lastNameFilter) { (singer:Singer) in
+//            List {
+//                ForEach(countries, id: \.self) { country in
+//                    Section(country.wrappedFullName) {
+//                        ForEach(country.candyArray, id: \.self) { candy in
 //
-//                Text("\(singer.wrappedFirstName) \(singer.wrappedLastName)")
+//                            Text(candy.wrappedName)
+//
+//                        }
+//                    }
+//                }
 //            }
 //
 //            Button("Add Examples") {
-//                let taylor = Singer(context: moc)
-//                taylor.firstName = "Taylor"
-//                taylor.lastName = "Swift"
+//                let candy1 = Candy(context: moc)
+//                candy1.name = "Mars"
+//                candy1.origin = Country(context: moc)
+//                candy1.origin?.shortName = "UK"
+//                candy1.origin?.fullName = "United Kingdom"
 //
-//                let ed = Singer(context: moc)
-//                ed.firstName = "Ed"
-//                ed.lastName = "Sheeran"
 //
-//                let adele = Singer(context: moc)
-//                adele.firstName = "Adele"
-//                adele.lastName = "Adkins"
+//                let candy2 = Candy(context: moc)
+//                candy2.name = "KitKat"
+//                candy2.origin = Country(context: moc)
+//                candy2.origin?.shortName = "UK"
+//                candy2.origin?.fullName = "United Kingdom"
+//
+//
+//
+//                let candy3 = Candy(context: moc)
+//                candy3.name = "Twix"
+//                candy3.origin = Country(context: moc)
+//                candy3.origin?.shortName = "UK"
+//                candy3.origin?.fullName = "United Kingdom"
+//
+//
+//                let candy4 = Candy(context: moc)
+//                candy4.name = "Toblerone"
+//                candy4.origin = Country(context: moc)
+//                candy4.origin?.shortName = "CH"
+//                candy4.origin?.fullName = "Switzerland"
 //
 //
 //                try? moc.save()
 //            }
-//
-//
-//            Button("Show A") {
-//                lastNameFilter = "A"
-//            }
-//
-//            Button("Show S") {
-//                lastNameFilter = "S"
-//            }
-            
-            List {
-                ForEach(countries, id: \.self) { country in
-                    Section(country.wrappedFullName) {
-                        ForEach(country.candyArray, id: \.self) { candy in
-                            
-                            Text(candy.wrappedName)
-                            
-                        }
-                    }
-                }
-            }
-            
-            Button("Add Examples") {
-                let candy1 = Candy(context: moc)
-                candy1.name = "Mars"
-                candy1.origin = Country(context: moc)
-                candy1.origin?.shortName = "UK"
-                candy1.origin?.fullName = "United Kingdom"
-                
-                
-                let candy2 = Candy(context: moc)
-                candy2.name = "KitKat"
-                candy2.origin = Country(context: moc)
-                candy2.origin?.shortName = "UK"
-                candy2.origin?.fullName = "United Kingdom"
-                
-                
-                
-                let candy3 = Candy(context: moc)
-                candy3.name = "Twix"
-                candy3.origin = Country(context: moc)
-                candy3.origin?.shortName = "UK"
-                candy3.origin?.fullName = "United Kingdom"
-                
-                
-                let candy4 = Candy(context: moc)
-                candy4.name = "Toblerone"
-                candy4.origin = Country(context: moc)
-                candy4.origin?.shortName = "CH"
-                candy4.origin?.fullName = "Switzerland"
-                
-                
-                try? moc.save()
-            }
         }
     }
 }
