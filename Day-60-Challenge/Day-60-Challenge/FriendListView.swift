@@ -8,13 +8,21 @@
 import SwiftUI
 
 struct FriendListView: View {
+    @State public var friendList: [Friend]
+    @Environment(\.dismiss) var dismiss
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct FriendListView_Previews: PreviewProvider {
-    static var previews: some View {
-        FriendListView()
+        NavigationView {
+            List(friendList) { friend in
+                    VStack(alignment: .leading) {
+                        Text(friend.name).font(.headline)
+                    }.padding(.all, 5)
+            }
+            .toolbar {
+                Button("Dismiss") {
+                    dismiss()
+                }
+            }
+        }
     }
 }

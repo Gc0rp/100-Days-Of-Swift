@@ -11,7 +11,7 @@ struct UserView: View {
     @State public var user: User
     @State public var showingFriendListScreen: Bool
     
-    @Environment(\.dismiss) var dismiss
+
     
     var body: some View {
         NavigationView {
@@ -39,14 +39,15 @@ struct UserView: View {
                     Text(user.address)
                 }
                 
-                Button("Friends") {
+                
+                Button("Show Friends") {
                     showingFriendListScreen = true
-                }
+                }.padding(.top, 20)
                 
-                
+                Spacer()
             }.padding(.all, 20)
         }.sheet(isPresented: $showingFriendListScreen) {
-            
+            FriendListView(friendList: user.friends)
         }
     }
     
