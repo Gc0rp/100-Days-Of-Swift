@@ -8,18 +8,21 @@
 import SwiftUI
 
 struct FriendListView: View {
-    @State public var friendList: [Friend]
+    @State public var friendList: [CachedFriend]
     @Environment(\.dismiss) var dismiss
     
+
     var body: some View {
+
         NavigationView {
             List(friendList) { friend in
                     VStack(alignment: .leading) {
-                        Text(friend.name).font(.headline)
+                        Text(friend.wrappedName).font(.headline)
                     }.padding(.all, 5)
             }
             .toolbar {
                 Button("Dismiss") {
+                    print(friendList)
                     dismiss()
                 }
             }

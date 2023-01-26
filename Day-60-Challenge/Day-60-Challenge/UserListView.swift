@@ -8,16 +8,16 @@
 import SwiftUI
 
 struct UserListView: View {
-    @State public var userList: [User]
+    @State public var userList: [CachedUser]
     var body: some View {
         List(userList) { user in
             NavigationLink {
                 UserView(user: user, showingFriendListScreen: false)
             } label: {
                 VStack(alignment: .leading) {
-                    Text(user.name).font(.headline)
+                    Text(user.wrappedName).font(.headline)
 
-                    Text(user.company).font(.caption)
+                    Text(user.wrappedCompany).font(.caption)
                 }.padding(.all, 5)
             }
 
