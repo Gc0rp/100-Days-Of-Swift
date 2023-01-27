@@ -8,17 +8,20 @@
 import Foundation
 
 
-public struct User: Codable, Identifiable {
-    public let id: String
-    var isActive: Bool
-    var name: String
-    var age: Int
-    var company: String
-    var email: String
-    var address: String
-    var about: String
+struct User: Codable, Identifiable {
+    let id: UUID
+    let isActive: Bool
+    let name: String
+    let age: Int
+    let company: String
+    let email: String
+    let address: String
+    let about: String
+    let registered: Date
+    let tags: [String]
+    let friends: [Friend]
     
-    var registered: Date
-    var tags: [String]
-    var friends: [Friend]
+    var formattedDate: String {
+        registered.formatted(date: .abbreviated, time: .omitted)
+    }
 }

@@ -16,7 +16,7 @@ extension CachedUser {
         return NSFetchRequest<CachedUser>(entityName: "CachedUser")
     }
 
-    @NSManaged public var id: String?
+    @NSManaged public var id: UUID?
     @NSManaged public var isActive: Bool
     @NSManaged public var name: String?
     @NSManaged public var age: Int16
@@ -25,47 +25,45 @@ extension CachedUser {
     @NSManaged public var address: String?
     @NSManaged public var about: String?
     @NSManaged public var registered: Date?
-    @NSManaged public var tags: NSObject?
-    @NSManaged public var friend: NSSet?
-    
-    
+    @NSManaged public var friends: NSSet?
+
+
     public var wrappedName: String {
         name ?? "Unknown Name"
     }
-            
+
     public var wrappedCompany: String {
         company ?? "Unknown Company"
     }
-            
+
     public var wrappedEmail: String {
         email ?? "Unknown Email"
     }
-    
+
     public var wrappedAddress: String {
         address ?? "Unknown Address"
     }
-    
+
     public var wrappedAbout: String {
         about ?? ""
     }
-    
+
     public var wrappedRegistered: Date {
         registered ?? Date.now
     }
-    
-    
-    
-    public var tagsArray: Set<String> {
-        let set = tags as? Set<String> ?? []
-        return set
-    }
+
+
+
+//    public var tagsArray: Set<String> {
+//        let set = tags as? Set<String> ?? []
+//        return set
+//    }
 
     public var friendsArray: [CachedFriend] {
-        let set = friend as? Set<CachedFriend> ?? []
+        let set = friends as? Set<CachedFriend> ?? []
 //
         return set.sorted(by: {$0.wrappedName < $1.wrappedName})
     }
-
 
 }
 

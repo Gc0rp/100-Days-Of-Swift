@@ -22,7 +22,6 @@ struct FriendListView: View {
             }
             .toolbar {
                 Button("Dismiss") {
-                    print(friendList)
                     dismiss()
                 }
             }

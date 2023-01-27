@@ -27,13 +27,17 @@ struct ContentView: View {
                 UserView(user: user, showingFriendListScreen: false)
             } label: {
                 VStack(alignment: .leading) {
-                    Text(user.wrappedName ?? "Unknown name").font(.headline)
+                    Text(user.wrappedName).font(.headline)
 
                     Text(user.company ?? "Unknown company").font(.caption)
                 }.padding(.all, 5)
             }
         }.task {
             await loadData()
+            await MainActor.run {addNewUsers(results)}
+            
+            print(results)
+            
         }
             .navigationTitle("Users")
         }
@@ -51,14 +55,13 @@ struct ContentView: View {
         do {
             let (data, _) = try await URLSession.shared.data(from: url)
 
+            
             let decoder = JSONDecoder()
             decoder.dateDecodingStrategy = .iso8601
 
             if let decodedResponse = try? decoder.decode([User].self, from: data) {
                 self.results = decodedResponse
             }
-
-            await MainActor.run {addNewUsers(results)}
 
         } catch {
             print("Invalid Data")
@@ -79,8 +82,8 @@ struct ContentView: View {
             newUser.age = Int16(user.age)
             newUser.email = user.email
             newUser.isActive = user.isActive
-            newUser.registered = user.registered
-            newUser.tags = nil
+//            newUser.formattedDate = user.formattedDate
+//            newUser.tags = nil
             
             
             for friend in user.friends {

@@ -15,7 +15,6 @@ struct Day_60_ChallengeApp: App {
         WindowGroup {
             ContentView()
                 .environment(\.managedObjectContext, dataController.container.viewContext)
-
         }
     }
 }

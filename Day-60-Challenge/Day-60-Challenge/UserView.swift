@@ -41,6 +41,7 @@ struct UserView: View {
                 
                 
                 Button("Show Friends") {
+                    print(user.friendsArray)
                     showingFriendListScreen = true
                 }.padding(.top, 20)
                 

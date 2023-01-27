@@ -16,12 +16,12 @@
 		35166A0E297BB6A900A33DF3 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35166A0D297BB6A900A33DF3 /* UserView.swift */; };
 		35166A10297BCCDB00A33DF3 /* FriendListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35166A0F297BCCDB00A33DF3 /* FriendListView.swift */; };
 		35166A12297BCD2B00A33DF3 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35166A11297BCD2B00A33DF3 /* UserListView.swift */; };
-		35166A15297CF48C00A33DF3 /* datamodel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35166A13297CF48B00A33DF3 /* datamodel.xcdatamodeld */; };
 		35166A2F297E7EFE00A33DF3 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35166A2E297E7EFE00A33DF3 /* DataController.swift */; };
-		35166A442981647000A33DF3 /* CachedFriend+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35166A402981647000A33DF3 /* CachedFriend+CoreDataClass.swift */; };
-		35166A452981647000A33DF3 /* CachedFriend+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35166A412981647000A33DF3 /* CachedFriend+CoreDataProperties.swift */; };
-		35166A462981647000A33DF3 /* CachedUser+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35166A422981647000A33DF3 /* CachedUser+CoreDataClass.swift */; };
-		35166A4D29823E6500A33DF3 /* CachedUser+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35166A4B29823E6500A33DF3 /* CachedUser+CoreDataProperties.swift */; };
+		35166A5D2983BBC200A33DF3 /* datamodel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35166A5B2983BBC200A33DF3 /* datamodel.xcdatamodeld */; };
+		35166A622983BCBC00A33DF3 /* CachedFriend+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35166A5E2983BCBC00A33DF3 /* CachedFriend+CoreDataClass.swift */; };
+		35166A632983BCBC00A33DF3 /* CachedFriend+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35166A5F2983BCBC00A33DF3 /* CachedFriend+CoreDataProperties.swift */; };
+		35166A642983BCBC00A33DF3 /* CachedUser+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35166A602983BCBC00A33DF3 /* CachedUser+CoreDataClass.swift */; };
+		35166A652983BCBC00A33DF3 /* CachedUser+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35166A612983BCBC00A33DF3 /* CachedUser+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,12 +35,12 @@
 		35166A0D297BB6A900A33DF3 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		35166A0F297BCCDB00A33DF3 /* FriendListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListView.swift; sourceTree = "<group>"; };
 		35166A11297BCD2B00A33DF3 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
-		35166A14297CF48C00A33DF3 /* datamodel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = datamodel.xcdatamodel; sourceTree = "<group>"; };
 		35166A2E297E7EFE00A33DF3 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataController.swift; path = "../../../HackingWithSwift-Clone/SwiftUI/project11/Bookworm/DataController.swift"; sourceTree = "<group>"; };
-		35166A402981647000A33DF3 /* CachedFriend+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedFriend+CoreDataClass.swift"; sourceTree = "<group>"; };
-		35166A412981647000A33DF3 /* CachedFriend+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedFriend+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		35166A422981647000A33DF3 /* CachedUser+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedUser+CoreDataClass.swift"; sourceTree = "<group>"; };
-		35166A4B29823E6500A33DF3 /* CachedUser+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedUser+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		35166A5C2983BBC200A33DF3 /* FriendFace.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FriendFace.xcdatamodel; sourceTree = "<group>"; };
+		35166A5E2983BCBC00A33DF3 /* CachedFriend+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedFriend+CoreDataClass.swift"; sourceTree = "<group>"; };
+		35166A5F2983BCBC00A33DF3 /* CachedFriend+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedFriend+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		35166A602983BCBC00A33DF3 /* CachedUser+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedUser+CoreDataClass.swift"; sourceTree = "<group>"; };
+		35166A612983BCBC00A33DF3 /* CachedUser+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedUser+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		351669EF297B8BAA00A33DF3 = {
 			isa = PBXGroup;
 			children = (
-				35166A13297CF48B00A33DF3 /* datamodel.xcdatamodeld */,
+				35166A5B2983BBC200A33DF3 /* datamodel.xcdatamodeld */,
 				351669FA297B8BAA00A33DF3 /* Day-60-Challenge */,
 				351669F9297B8BAA00A33DF3 /* Products */,
 			);
@@ -74,10 +74,10 @@
 		351669FA297B8BAA00A33DF3 /* Day-60-Challenge */ = {
 			isa = PBXGroup;
 			children = (
-				35166A402981647000A33DF3 /* CachedFriend+CoreDataClass.swift */,
-				35166A412981647000A33DF3 /* CachedFriend+CoreDataProperties.swift */,
-				35166A422981647000A33DF3 /* CachedUser+CoreDataClass.swift */,
-				35166A4B29823E6500A33DF3 /* CachedUser+CoreDataProperties.swift */,
+				35166A5E2983BCBC00A33DF3 /* CachedFriend+CoreDataClass.swift */,
+				35166A5F2983BCBC00A33DF3 /* CachedFriend+CoreDataProperties.swift */,
+				35166A602983BCBC00A33DF3 /* CachedUser+CoreDataClass.swift */,
+				35166A612983BCBC00A33DF3 /* CachedUser+CoreDataProperties.swift */,
 				35166A0B297B8CB000A33DF3 /* User.swift */,
 				351669FB297B8BAA00A33DF3 /* Day_60_ChallengeApp.swift */,
 				351669FD297B8BAA00A33DF3 /* ContentView.swift */,
@@ -171,17 +171,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				35166A12297BCD2B00A33DF3 /* UserListView.swift in Sources */,
-				35166A15297CF48C00A33DF3 /* datamodel.xcdatamodeld in Sources */,
 				35166A0C297B8CB000A33DF3 /* User.swift in Sources */,
 				35166A0A297B8C3B00A33DF3 /* Friend.swift in Sources */,
-				35166A462981647000A33DF3 /* CachedUser+CoreDataClass.swift in Sources */,
-				35166A4D29823E6500A33DF3 /* CachedUser+CoreDataProperties.swift in Sources */,
+				35166A5D2983BBC200A33DF3 /* datamodel.xcdatamodeld in Sources */,
+				35166A642983BCBC00A33DF3 /* CachedUser+CoreDataClass.swift in Sources */,
 				35166A10297BCCDB00A33DF3 /* FriendListView.swift in Sources */,
-				35166A452981647000A33DF3 /* CachedFriend+CoreDataProperties.swift in Sources */,
+				35166A632983BCBC00A33DF3 /* CachedFriend+CoreDataProperties.swift in Sources */,
 				35166A0E297BB6A900A33DF3 /* UserView.swift in Sources */,
 				351669FE297B8BAA00A33DF3 /* ContentView.swift in Sources */,
+				35166A652983BCBC00A33DF3 /* CachedUser+CoreDataProperties.swift in Sources */,
 				35166A2F297E7EFE00A33DF3 /* DataController.swift in Sources */,
-				35166A442981647000A33DF3 /* CachedFriend+CoreDataClass.swift in Sources */,
+				35166A622983BCBC00A33DF3 /* CachedFriend+CoreDataClass.swift in Sources */,
 				351669FC297B8BAA00A33DF3 /* Day_60_ChallengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,13 +383,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		35166A13297CF48B00A33DF3 /* datamodel.xcdatamodeld */ = {
+		35166A5B2983BBC200A33DF3 /* datamodel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				35166A14297CF48C00A33DF3 /* datamodel.xcdatamodel */,
+				35166A5C2983BBC200A33DF3 /* FriendFace.xcdatamodel */,
 			);
-			currentVersion = 35166A14297CF48C00A33DF3 /* datamodel.xcdatamodel */;
-			path = datamodel.xcdatamodeld;
+			currentVersion = 35166A5C2983BBC200A33DF3 /* FriendFace.xcdatamodel */;
+			name = datamodel.xcdatamodeld;
+			path = ../../FriendFaceChallenge/FriendFace/Models/CoreData/datamodel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
