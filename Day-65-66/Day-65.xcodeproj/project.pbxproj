@@ -13,6 +13,7 @@
 		355B09FC2988D7710013894C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 355B09FB2988D7710013894C /* Preview Assets.xcassets */; };
 		355B0A042988D8280013894C /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355B0A022988D8280013894C /* ImageSaver.swift */; };
 		355B0A052988D8280013894C /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355B0A032988D8280013894C /* ImagePicker.swift */; };
+		35F9ACB6298B985900A95FDF /* ControlAmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F9ACB5298B985900A95FDF /* ControlAmount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		355B09FB2988D7710013894C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		355B0A022988D8280013894C /* ImageSaver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageSaver.swift; path = "../../Day-63-64-Instafilter/Day-63-Instafilter/ImageSaver.swift"; sourceTree = "<group>"; };
 		355B0A032988D8280013894C /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImagePicker.swift; path = "../../Day-63-64-Instafilter/Day-63-Instafilter/ImagePicker.swift"; sourceTree = "<group>"; };
+		35F9ACB5298B985900A95FDF /* ControlAmount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlAmount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				355B0A022988D8280013894C /* ImageSaver.swift */,
 				355B09F42988D7700013894C /* Day_65App.swift */,
 				355B09F62988D7700013894C /* ContentView.swift */,
+				35F9ACB5298B985900A95FDF /* ControlAmount.swift */,
 				355B09F82988D7710013894C /* Assets.xcassets */,
 				355B09FA2988D7710013894C /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 				355B09F72988D7700013894C /* ContentView.swift in Sources */,
 				355B0A052988D8280013894C /* ImagePicker.swift in Sources */,
 				355B0A042988D8280013894C /* ImageSaver.swift in Sources */,
+				35F9ACB6298B985900A95FDF /* ControlAmount.swift in Sources */,
 				355B09F52988D7700013894C /* Day_65App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
