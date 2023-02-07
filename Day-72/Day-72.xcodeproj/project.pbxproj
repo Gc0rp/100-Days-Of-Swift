@@ -7,32 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		351138CC298F6AF300913213 /* Day_70_BucketListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351138CB298F6AF300913213 /* Day_70_BucketListApp.swift */; };
-		351138CE298F6AF300913213 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351138CD298F6AF300913213 /* ContentView.swift */; };
-		351138D0298F6AF400913213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 351138CF298F6AF400913213 /* Assets.xcassets */; };
-		351138D3298F6AF400913213 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 351138D2298F6AF400913213 /* Preview Assets.xcassets */; };
-		351138DA298F6CE500913213 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351138D9298F6CE500913213 /* Location.swift */; };
-		351138DC298F7EF500913213 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351138DB298F7EF500913213 /* EditView.swift */; };
-		351138DE2990B73800913213 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351138DD2990B73800913213 /* Result.swift */; };
-		358EDCFD299228DA009D211D /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358EDCFC299228DA009D211D /* ContentView-ViewModel.swift */; };
-		358EDCFF29923989009D211D /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358EDCFE29923989009D211D /* FileManager-DocumentsDirectory.swift */; };
+		358EDCEF29922869009D211D /* Day_72App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358EDCEE29922869009D211D /* Day_72App.swift */; };
+		358EDCF129922869009D211D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358EDCF029922869009D211D /* ContentView.swift */; };
+		358EDCF32992286A009D211D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 358EDCF22992286A009D211D /* Assets.xcassets */; };
+		358EDCF62992286A009D211D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 358EDCF52992286A009D211D /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		351138C8298F6AF300913213 /* Day-70-BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day-70-BucketList.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		351138CB298F6AF300913213 /* Day_70_BucketListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day_70_BucketListApp.swift; sourceTree = "<group>"; };
-		351138CD298F6AF300913213 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		351138CF298F6AF400913213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		351138D2298F6AF400913213 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		351138D9298F6CE500913213 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
-		351138DB298F7EF500913213 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
-		351138DD2990B73800913213 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
-		358EDCFC299228DA009D211D /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
-		358EDCFE29923989009D211D /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		358EDCEB29922869009D211D /* Day-72.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day-72.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		358EDCEE29922869009D211D /* Day_72App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day_72App.swift; sourceTree = "<group>"; };
+		358EDCF029922869009D211D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		358EDCF22992286A009D211D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		358EDCF52992286A009D211D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		351138C5298F6AF300913213 /* Frameworks */ = {
+		358EDCE829922869009D211D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,42 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		351138BF298F6AF200913213 = {
+		358EDCE229922869009D211D = {
 			isa = PBXGroup;
 			children = (
-				351138CA298F6AF300913213 /* Day-70-BucketList */,
-				351138C9298F6AF300913213 /* Products */,
+				358EDCED29922869009D211D /* Day-72 */,
+				358EDCEC29922869009D211D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		351138C9298F6AF300913213 /* Products */ = {
+		358EDCEC29922869009D211D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				351138C8298F6AF300913213 /* Day-70-BucketList.app */,
+				358EDCEB29922869009D211D /* Day-72.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		351138CA298F6AF300913213 /* Day-70-BucketList */ = {
+		358EDCED29922869009D211D /* Day-72 */ = {
 			isa = PBXGroup;
 			children = (
-				351138CB298F6AF300913213 /* Day_70_BucketListApp.swift */,
-				351138CD298F6AF300913213 /* ContentView.swift */,
-				358EDCFC299228DA009D211D /* ContentView-ViewModel.swift */,
-				358EDCFE29923989009D211D /* FileManager-DocumentsDirectory.swift */,
-				351138DD2990B73800913213 /* Result.swift */,
-				351138DB298F7EF500913213 /* EditView.swift */,
-				351138D9298F6CE500913213 /* Location.swift */,
-				351138CF298F6AF400913213 /* Assets.xcassets */,
-				351138D1298F6AF400913213 /* Preview Content */,
+				358EDCEE29922869009D211D /* Day_72App.swift */,
+				358EDCF029922869009D211D /* ContentView.swift */,
+				358EDCF22992286A009D211D /* Assets.xcassets */,
+				358EDCF42992286A009D211D /* Preview Content */,
 			);
-			path = "Day-70-BucketList";
+			path = "Day-72";
 			sourceTree = "<group>";
 		};
-		351138D1298F6AF400913213 /* Preview Content */ = {
+		358EDCF42992286A009D211D /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				351138D2298F6AF400913213 /* Preview Assets.xcassets */,
+				358EDCF52992286A009D211D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -85,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		351138C7298F6AF300913213 /* Day-70-BucketList */ = {
+		358EDCEA29922869009D211D /* Day-72 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 351138D6298F6AF400913213 /* Build configuration list for PBXNativeTarget "Day-70-BucketList" */;
+			buildConfigurationList = 358EDCF92992286A009D211D /* Build configuration list for PBXNativeTarget "Day-72" */;
 			buildPhases = (
-				351138C4298F6AF300913213 /* Sources */,
-				351138C5298F6AF300913213 /* Frameworks */,
-				351138C6298F6AF300913213 /* Resources */,
+				358EDCE729922869009D211D /* Sources */,
+				358EDCE829922869009D211D /* Frameworks */,
+				358EDCE929922869009D211D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Day-70-BucketList";
-			productName = "Day-70-BucketList";
-			productReference = 351138C8298F6AF300913213 /* Day-70-BucketList.app */;
+			name = "Day-72";
+			productName = "Day-72";
+			productReference = 358EDCEB29922869009D211D /* Day-72.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		351138C0298F6AF200913213 /* Project object */ = {
+		358EDCE329922869009D211D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					351138C7298F6AF300913213 = {
+					358EDCEA29922869009D211D = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 351138C3298F6AF200913213 /* Build configuration list for PBXProject "Day-70-BucketList" */;
+			buildConfigurationList = 358EDCE629922869009D211D /* Build configuration list for PBXProject "Day-72" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -125,47 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 351138BF298F6AF200913213;
-			productRefGroup = 351138C9298F6AF300913213 /* Products */;
+			mainGroup = 358EDCE229922869009D211D;
+			productRefGroup = 358EDCEC29922869009D211D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				351138C7298F6AF300913213 /* Day-70-BucketList */,
+				358EDCEA29922869009D211D /* Day-72 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		351138C6298F6AF300913213 /* Resources */ = {
+		358EDCE929922869009D211D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				351138D3298F6AF400913213 /* Preview Assets.xcassets in Resources */,
-				351138D0298F6AF400913213 /* Assets.xcassets in Resources */,
+				358EDCF62992286A009D211D /* Preview Assets.xcassets in Resources */,
+				358EDCF32992286A009D211D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		351138C4298F6AF300913213 /* Sources */ = {
+		358EDCE729922869009D211D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				351138CE298F6AF300913213 /* ContentView.swift in Sources */,
-				358EDCFF29923989009D211D /* FileManager-DocumentsDirectory.swift in Sources */,
-				358EDCFD299228DA009D211D /* ContentView-ViewModel.swift in Sources */,
-				351138DE2990B73800913213 /* Result.swift in Sources */,
-				351138DA298F6CE500913213 /* Location.swift in Sources */,
-				351138DC298F7EF500913213 /* EditView.swift in Sources */,
-				351138CC298F6AF300913213 /* Day_70_BucketListApp.swift in Sources */,
+				358EDCF129922869009D211D /* ContentView.swift in Sources */,
+				358EDCEF29922869009D211D /* Day_72App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		351138D4298F6AF400913213 /* Debug */ = {
+		358EDCF72992286A009D211D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -225,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		351138D5298F6AF400913213 /* Release */ = {
+		358EDCF82992286A009D211D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -279,17 +259,16 @@
 			};
 			name = Release;
 		};
-		351138D7298F6AF400913213 /* Debug */ = {
+		358EDCFA2992286A009D211D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Day-70-BucketList/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Day-72/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please authenticate yourself to unlock places.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -300,7 +279,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "oj.Day-70-BucketList";
+				PRODUCT_BUNDLE_IDENTIFIER = "oj.Day-72";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -308,17 +287,16 @@
 			};
 			name = Debug;
 		};
-		351138D8298F6AF400913213 /* Release */ = {
+		358EDCFB2992286A009D211D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Day-70-BucketList/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Day-72/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please authenticate yourself to unlock places.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -329,7 +307,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "oj.Day-70-BucketList";
+				PRODUCT_BUNDLE_IDENTIFIER = "oj.Day-72";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -340,25 +318,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		351138C3298F6AF200913213 /* Build configuration list for PBXProject "Day-70-BucketList" */ = {
+		358EDCE629922869009D211D /* Build configuration list for PBXProject "Day-72" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				351138D4298F6AF400913213 /* Debug */,
-				351138D5298F6AF400913213 /* Release */,
+				358EDCF72992286A009D211D /* Debug */,
+				358EDCF82992286A009D211D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		351138D6298F6AF400913213 /* Build configuration list for PBXNativeTarget "Day-70-BucketList" */ = {
+		358EDCF92992286A009D211D /* Build configuration list for PBXNativeTarget "Day-72" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				351138D7298F6AF400913213 /* Debug */,
-				351138D8298F6AF400913213 /* Release */,
+				358EDCFA2992286A009D211D /* Debug */,
+				358EDCFB2992286A009D211D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 351138C0298F6AF200913213 /* Project object */;
+	rootObject = 358EDCE329922869009D211D /* Project object */;
 }
