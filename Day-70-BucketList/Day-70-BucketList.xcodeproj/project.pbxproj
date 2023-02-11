@@ -16,6 +16,7 @@
 		351138DE2990B73800913213 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351138DD2990B73800913213 /* Result.swift */; };
 		358EDCFD299228DA009D211D /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358EDCFC299228DA009D211D /* ContentView-ViewModel.swift */; };
 		358EDCFF29923989009D211D /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358EDCFE29923989009D211D /* FileManager-DocumentsDirectory.swift */; };
+		358EDD0129935368009D211D /* EditView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358EDD0029935368009D211D /* EditView-ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		351138DD2990B73800913213 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		358EDCFC299228DA009D211D /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
 		358EDCFE29923989009D211D /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		358EDD0029935368009D211D /* EditView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditView-ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				358EDCFE29923989009D211D /* FileManager-DocumentsDirectory.swift */,
 				351138DD2990B73800913213 /* Result.swift */,
 				351138DB298F7EF500913213 /* EditView.swift */,
+				358EDD0029935368009D211D /* EditView-ViewModel.swift */,
 				351138D9298F6CE500913213 /* Location.swift */,
 				351138CF298F6AF400913213 /* Assets.xcassets */,
 				351138D1298F6AF400913213 /* Preview Content */,
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				358EDD0129935368009D211D /* EditView-ViewModel.swift in Sources */,
 				351138CE298F6AF300913213 /* ContentView.swift in Sources */,
 				358EDCFF29923989009D211D /* FileManager-DocumentsDirectory.swift in Sources */,
 				358EDCFD299228DA009D211D /* ContentView-ViewModel.swift in Sources */,

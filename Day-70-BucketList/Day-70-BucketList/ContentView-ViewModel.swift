@@ -18,6 +18,8 @@ extension ContentView {
         @Published var selectedPlace: Location?
         @Published var isUnlocked = false
         
+        @Published var invalidLogin = false
+        
         let savePath = FileManager.documentsDirectory.appendingPathExtension("SavedPlaces")
         
         init() {
@@ -72,6 +74,7 @@ extension ContentView {
                         }
                     } else {
                         // error
+                        print(error?.localizedDescription ?? "error")
                     }
                 }
             } else {
