@@ -69,7 +69,7 @@ struct ContentView: View {
             case .increment:
                 value += 1
             case .decrement:
-                value -=1
+                value -= 1
             default:
                 print("Not handled")
             }
